@@ -8,6 +8,7 @@ export default function Keypad({
   handleDecimalButtonClick,
   handleEqualsButtonClick,
 }) {
+  // A keypad component to contain all calculator buttons
   return (
     <div className="keypad">
       <button className="clear-button" onClick={handleClearButtonClick}>
