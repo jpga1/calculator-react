@@ -80,10 +80,7 @@ export default function Keypad({
         .
       </button>
 
-      <button
-        className="equals-button"
-        onClick={() => handleEqualsButtonClick("=")}
-      >
+      <button className="equals-button" onClick={handleEqualsButtonClick}>
         =
       </button>
 
